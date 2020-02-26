@@ -331,7 +331,7 @@ if [[ "$SpikCheckDIST" == '0' ]]; then
 fi
 
 [[ "$ddMode" == '1' ]] && {
-  export SSL_SUPPORT='https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreFiles/wget_udeb_amd64.tar.gz';
+  export SSL_SUPPORT='https://raw.githubusercontent.com/fei5seven/Network-Reinstall-System-Modify/master/CoreFiles/wget_udeb_amd64.tar.gz';
   if [[ -n "$tmpURL" ]]; then
     DDURL="$tmpURL"
     echo "$DDURL" |grep -q '^http://\|^ftp://\|^https://';
@@ -350,7 +350,7 @@ fi
 
 [ -n "$ipAddr" ] && [ -n "$ipMask" ] && [ -n "$ipGate" ] && setNet='1';
 [[ -n "$tmpWORD" ]] && myPASSWORD="$(openssl passwd -1 "$tmpWORD")";
-[[ -z "$myPASSWORD" ]] && myPASSWORD='$1$UIl1uSg0$tAW9qjOqoCto0CIUgUwHT1';
+[[ -z "$myPASSWORD" ]] && myPASSWORD='$1$fcyWSnlM$.bTFB6O67KZKRqJAPqpeH1';
 
 if [[ -n "$interface" ]]; then
   IFETH="$interface"
